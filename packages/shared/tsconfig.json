@@ -1,0 +1,22 @@
+{
+  "extends": "@workspace/typescript-config/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": ".",
+    "declaration": true,
+    "paths": {
+      "@workspace/ui/*": [
+        "../ui/*"
+      ]
+    },
+    "module": "ESNext",
+    "moduleResolution": "Bundler"
+  },
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
